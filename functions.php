@@ -1,3 +1,5 @@
+<?php
+
 //      Average Days from “Repairs in Progress” to “Repairs Completed” Credits to LegitButton
         $qb = $em->getRepository('AccMainBundle:Job')
                 ->createQueryBuilder('j')
